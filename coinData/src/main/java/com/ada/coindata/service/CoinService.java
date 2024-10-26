@@ -37,5 +37,12 @@ public class CoinService {
     }
 
 
-//    public List<Coin> coinMapper(){}
+//    public List<Coin> allCoinsMapper(List<Map<String , Object>> allCoins){
+//        List<Map<String , Object>>  coinsMap =  fetchAllCoinsData();
+//    }
+
+
+
+
+
 }
