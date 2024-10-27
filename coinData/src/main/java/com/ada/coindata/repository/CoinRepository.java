@@ -11,5 +11,6 @@ import java.util.List;
 public interface CoinRepository extends JpaRepository<Coin , Long> {
 
     List<Coin> findCoinByPriceUsdBetween(Double low , Double high);
+    Coin findCoinByAsset(String asset);
 
 }
